@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ZigZag\\ZigZag.Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.tests\\inmemorytestbase.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|solutionrelative:zigzag.library.tests\\inmemorytestbase.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.tests\\inmemorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|solutionrelative:zigzag.library.tests\\inmemorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.tests\\bookservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|solutionrelative:zigzag.library.tests\\bookservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.tests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|solutionrelative:zigzag.library.tests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27C42EC2-92E9-426D-9CD1-6D19AED0F9B5}|ZigZag.Library.API.Services\\ZigZag.Library.API.Services.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api.services\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C42EC2-92E9-426D-9CD1-6D19AED0F9B5}|ZigZag.Library.API.Services\\ZigZag.Library.API.Services.csproj|solutionrelative:zigzag.library.api.services\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.tests\\zigzag.library.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{867F7E69-0D8C-41E1-9D52-50C4B024FF68}|ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj|solutionrelative:zigzag.library.tests\\zigzag.library.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.dataaccess\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|solutionrelative:zigzag.library.dataaccess\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.dataaccess\\run-migrations.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|solutionrelative:zigzag.library.dataaccess\\run-migrations.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api\\extensions\\apikeyvalidationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|solutionrelative:zigzag.library.api\\extensions\\apikeyvalidationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api\\extensions\\swaggergenoptionsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|solutionrelative:zigzag.library.api\\extensions\\swaggergenoptionsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|solutionrelative:zigzag.library.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.dataaccess\\librarydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|solutionrelative:zigzag.library.dataaccess\\librarydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|solutionrelative:zigzag.library.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|solutionrelative:zigzag.library.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.dataaccess\\models\\dto\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|solutionrelative:zigzag.library.dataaccess\\models\\dto\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.dataaccess\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA82987E-A893-40A6-96FA-FBE3FE33F193}|ZigZag.Library.DataAccess\\ZigZag.Library.DataAccess.csproj|solutionrelative:zigzag.library.dataaccess\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api\\zigzag.library.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|solutionrelative:zigzag.library.api\\zigzag.library.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api\\zigzag.library.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|solutionrelative:zigzag.library.api\\zigzag.library.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|d:\\zigzag\\zigzag.library\\zigzag.library.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D17D5AC-CF1B-4BC3-AE48-FFC9A882EF67}|ZigZag.Library.API\\ZigZag.Library.API.csproj|solutionrelative:zigzag.library.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ramos\\AppData\\Roaming\\Microsoft\\UserSecrets\\078f6cc3-9fc6-483a-81f7-2a439def42ae\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 345,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InMemoryContextFactory.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\InMemoryContextFactory.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.Tests\\InMemoryContextFactory.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\InMemoryContextFactory.cs",
+              "RelativeToolTip": "ZigZag.Library.Tests\\InMemoryContextFactory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:52:00.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InMemoryTestBase.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\InMemoryTestBase.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.Tests\\InMemoryTestBase.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\InMemoryTestBase.cs",
+              "RelativeToolTip": "ZigZag.Library.Tests\\InMemoryTestBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:50:04.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ZigZag.Library.Tests",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj",
+              "RelativeDocumentMoniker": "ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj",
+              "RelativeToolTip": "ZigZag.Library.Tests\\ZigZag.Library.Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-06T11:33:40.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7ff2ab69-0a20-4bf5-baef-24d9eb6969e1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.Tests\\GlobalUsings.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\GlobalUsings.cs",
+              "RelativeToolTip": "ZigZag.Library.Tests\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:32:49.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookServiceTests.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\BookServiceTests.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.Tests\\BookServiceTests.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.Tests\\BookServiceTests.cs",
+              "RelativeToolTip": "ZigZag.Library.Tests\\BookServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:31:43.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiKeyValidationExtensions.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\Extensions\\ApiKeyValidationExtensions.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.API\\Extensions\\ApiKeyValidationExtensions.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\Extensions\\ApiKeyValidationExtensions.cs",
+              "RelativeToolTip": "ZigZag.Library.API\\Extensions\\ApiKeyValidationExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:26:18.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.DataAccess\\LibraryDbContext.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\LibraryDbContext.cs",
+              "RelativeToolTip": "ZigZag.Library.DataAccess\\LibraryDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:38:54.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API.Services\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.API.Services\\Services\\BookService.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API.Services\\Services\\BookService.cs",
+              "RelativeToolTip": "ZigZag.Library.API.Services\\Services\\BookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:53:15.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SwaggerGenOptionsExtensions.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\Extensions\\SwaggerGenOptionsExtensions.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.API\\Extensions\\SwaggerGenOptionsExtensions.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\Extensions\\SwaggerGenOptionsExtensions.cs",
+              "RelativeToolTip": "ZigZag.Library.API\\Extensions\\SwaggerGenOptionsExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:28:26.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\Program.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.API\\Program.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\Program.cs",
+              "RelativeToolTip": "ZigZag.Library.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:40:44.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\Models\\Dto\\Book.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.DataAccess\\Models\\Dto\\Book.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\Models\\Dto\\Book.cs",
+              "RelativeToolTip": "ZigZag.Library.DataAccess\\Models\\Dto\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:17:53.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ZigZag.Library.API.http",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\ZigZag.Library.API.http",
+              "RelativeDocumentMoniker": "ZigZag.Library.API\\ZigZag.Library.API.http",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\ZigZag.Library.API.http",
+              "RelativeToolTip": "ZigZag.Library.API\\ZigZag.Library.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-06T08:49:38.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LibraryDbContextFactory.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\LibraryDbContextFactory.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.DataAccess\\LibraryDbContextFactory.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\LibraryDbContextFactory.cs",
+              "RelativeToolTip": "ZigZag.Library.DataAccess\\LibraryDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:26:35.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "run-migrations.sh",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\run-migrations.sh",
+              "RelativeDocumentMoniker": "ZigZag.Library.DataAccess\\run-migrations.sh",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\run-migrations.sh",
+              "RelativeToolTip": "ZigZag.Library.DataAccess\\run-migrations.sh",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-06T08:53:56.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.DataAccess\\Models\\Book.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.DataAccess\\Models\\Book.cs",
+              "RelativeToolTip": "ZigZag.Library.DataAccess\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:37:19.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ZigZag.Library.API\\appsettings.json",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\appsettings.json",
+              "RelativeToolTip": "ZigZag.Library.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T07:37:37.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "ZigZag.Library.API\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\Controllers\\BookController.cs",
+              "RelativeToolTip": "ZigZag.Library.API\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:34:13.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ZigZag.Library.API.csproj",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\ZigZag.Library.API.csproj",
+              "RelativeDocumentMoniker": "ZigZag.Library.API\\ZigZag.Library.API.csproj",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\ZigZag.Library.API.csproj",
+              "RelativeToolTip": "ZigZag.Library.API\\ZigZag.Library.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-06T07:47:26.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\ramos\\AppData\\Roaming\\Microsoft\\UserSecrets\\078f6cc3-9fc6-483a-81f7-2a439def42ae\\secrets.json",
+              "ToolTip": "C:\\Users\\ramos\\AppData\\Roaming\\Microsoft\\UserSecrets\\078f6cc3-9fc6-483a-81f7-2a439def42ae\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T07:41:31.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ZigZag.Library.API\\appsettings.Development.json",
+              "ToolTip": "D:\\ZigZag\\ZigZag.Library\\ZigZag.Library.API\\appsettings.Development.json",
+              "RelativeToolTip": "ZigZag.Library.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T08:41:15.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
