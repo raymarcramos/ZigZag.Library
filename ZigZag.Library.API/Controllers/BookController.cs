@@ -3,7 +3,7 @@ using Swashbuckle.AspNetCore.Annotations;
 using System.ComponentModel.DataAnnotations;
 using ZigZag.Library.API.Services.Services;
 using ZigZag.Library.DataAccess.Models;
-using ZigZag.Library.DataAccess.Models.Dto;
+using ZigZag.Library.DataAccess.Models.Requests;
 
 namespace ZigZag.Library.API.Controllers;
 
@@ -26,9 +26,9 @@ public class BookController(IBookService bookService) : Controller
     [Route("book")]
     [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Book))]
     [SwaggerOperation(Summary = "Add a new book", Description = "Add a new book to the library.")]
-    public async Task<IActionResult> CreateBook([FromBody, Required] BookDto bookDto)
+    public async Task<IActionResult> CreateBook([FromBody, Required] BookRequest bookRequest)
     {
-        var createdBook = await bookService.CreateAsync(bookDto);
+        var createdBook = await bookService.CreateAsync(bookRequest);
 
         return CreatedAtAction(nameof(CreateBook), new { id = createdBook.Id }, createdBook);
     }
@@ -55,9 +55,9 @@ public class BookController(IBookService bookService) : Controller
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Book))]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [SwaggerOperation(Summary = "Update a book", Description = "Update an existing book by its ID.")]
-    public async Task<IActionResult> UpdateBook([FromRoute, Required] int id, [FromBody, Required] BookDto bookDto)
+    public async Task<IActionResult> UpdateBook([FromRoute, Required] int id, [FromBody, Required] BookRequest bookRequest)
     {
-        var updatedBook = await bookService.UpdateAsync(id, bookDto);
+        var updatedBook = await bookService.UpdateAsync(id, bookRequest);
 
         if (updatedBook == null)
         {

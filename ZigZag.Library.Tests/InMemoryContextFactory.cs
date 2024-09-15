@@ -1,51 +1,50 @@
 ﻿using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using SQLitePCL;
 using System.Data.Common;
 using ZigZag.Library.DataAccess;
 
-namespace ZigZag.Library.Tests
+namespace ZigZag.Library.Tests;
+
+public class InMemoryContextFactory : IAsyncLifetime
 {
-    public class InMemoryContextFactory : IAsyncLifetime
+    private DbConnection _connection = null!;
+
+    public Task InitializeAsync()
     {
-        private DbConnection _connection = null!;
+        _connection = CreateInMemoryDatabase();
+        return Task.CompletedTask;
+    }
 
-        public Task InitializeAsync()
+    public LibraryDbContext GetContext()
+    {
+        if (_connection == null)
         {
-            _connection = CreateInMemoryDatabase();
-            return Task.CompletedTask;
+            throw new InvalidOperationException(
+                $"{nameof(InMemoryContextFactory)} must be initialized before use. Please call InitializeAsync.");
         }
 
-        public LibraryDbContext GetContext()
-        {
-            if (_connection == null)
-            {
-                throw new ApplicationException(
-                    $"{nameof(InMemoryContextFactory)} must be initialized before use. Please call InitializeAsync.");
-            }
+        var options = new DbContextOptionsBuilder<LibraryDbContext>()
+            .UseSqlite(_connection)
+            .Options;
 
-            var options = new DbContextOptionsBuilder<LibraryDbContext>()
-                .UseSqlite(_connection) 
-                .Options;
+        var context = new LibraryDbContext(options);
+        context.Database.EnsureCreated();
 
-            var context = new LibraryDbContext(options);
-            context.Database.EnsureCreated(); 
+        return context;
+    }
 
-            return context;
-        }
+    private static DbConnection CreateInMemoryDatabase()
+    {
+        Batteries.Init();
 
-        private static DbConnection CreateInMemoryDatabase()
-        {
-            var connection = new SqliteConnection("Filename=:memory:");
-            connection.Open();
-            return connection;
-        }
+        var connection = new SqliteConnection("Filename=:memory:");
+        connection.Open();
+        return connection;
+    }
 
-        public async Task DisposeAsync()
-        {
-            if (_connection != null)
-            {
-                await _connection.DisposeAsync();
-            }
-        }
+    public async Task DisposeAsync()
+    {
+        await _connection.DisposeAsync();
     }
 }

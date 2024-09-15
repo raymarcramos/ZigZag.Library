@@ -1,4 +1,6 @@
-﻿namespace ZigZag.Library.API.Extensions;
+﻿using ZigZag.Library.API.Services.Exceptions;
+
+namespace ZigZag.Library.API.Extensions;
 
 public static class ApiKeyValidationExtensions
 {
@@ -13,7 +15,7 @@ public static class ApiKeyValidationExtensions
                 return;
             }
 
-            var apiKey = configuration.GetValue<string>("ApiKey");
+            var apiKey = configuration["ApiKey"] ?? throw new MissingApiKeyException("Missing Api Key in app settings or secrets.");
 
             if (!apiKey.Equals(extractedApiKey))
             {
